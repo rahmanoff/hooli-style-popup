@@ -87,7 +87,7 @@ a {
     position: absolute;
     top: 50px;
     right: -50px;
-    width: 350px;
+    width: 380px;
     height: 610px;
     overflow: scroll;
     border: 1px solid #9b9b9b;
@@ -98,7 +98,7 @@ a {
 
 .products__main {
     display: grid;
-    grid-template-columns: repeat(3, minmax(auto, 100px));
+    grid-template-columns: repeat(3, 100px);
     grid-template-rows: repeat(1, 1fr);
     gap: 15px;
     /* grid-auto-flow: row; */
@@ -112,6 +112,11 @@ a {
 .product__item {
     padding: 5px;
     border: 1px solid transparent;
+
+    display: grid;
+    grid-template-rows: 1fr auto;
+    min-height: 100%;
+    align-items: end;
 }
 
 .product__item:hover {
@@ -150,7 +155,7 @@ a {
 
 .products__more {
     display: grid;
-    grid-template-columns: repeat(3, minmax(auto, 100px));
+    grid-template-columns: repeat(3, 100px);
     grid-template-rows: repeat(1, 1fr);
     gap: 15px;
     /* grid-auto-flow: row; */
