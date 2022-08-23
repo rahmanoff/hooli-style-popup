@@ -126,7 +126,7 @@ a {
     border: 1px solid #9b9b9b;
 }
 
-.product__item:focus-visible {
+.product__item-link:focus {
     border: 1px solid #9b9b9b;
 }
 
@@ -170,10 +170,6 @@ a {
 }
 
 .products__more-label:hover {
-    border: 1px solid #9b9b9b;
-}
-
-.product__item-link:focus {
     border: 1px solid #9b9b9b;
 }
 
